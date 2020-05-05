@@ -22,7 +22,7 @@ print("Mean squared error is: ", mean_squared_error(diabetes_Y_test, diabetes_Y_
 print("Weight: ", model.coef_)
 print("Intercept: ", model.intercept_)
 
-
+# Below Mean squared error, Weight, Intercept when there are only one feature.
 # Mean squared error is:  3035.0601152912695
 # Weight:  [941.43097333]
 # Intercept:  153.39713623331698
